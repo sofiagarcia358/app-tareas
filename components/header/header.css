@@ -1,0 +1,21 @@
+.header {
+    height: 8rem;
+
+    padding: 1rem  12rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(97, 10, 10);
+    box-shadow: 3px 3px 3px 3px rgb(187, 174, 57);
+
+}
+
+.header h1 {
+    color: white;
+    box-shadow: 3px 3px 3px 3px rgb(79, 112, 114);
+}
+
+.header img {
+    height: 6rem;
+    border-radius: 2.5rem;
+}
