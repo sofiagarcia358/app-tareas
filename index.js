@@ -3,6 +3,7 @@ import { tarea } from "./components/tareas/tareas.js";
 import { formulario } from "./components/formulario/formulario.js";
 
 let DOM = document.getElementById("root");
+DOM.className = "cuadro";
 
 
 DOM.appendChild(header());
