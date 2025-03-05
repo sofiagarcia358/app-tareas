@@ -5,7 +5,11 @@ import { formulario } from "./components/formulario/formulario.js";
 let DOM = document.getElementById("root");
 DOM.className = "cuadro";
 
+function cargarDom (){
+    DOM.appendChild(header());
+    DOM.appendChild(tarea());
+    DOM.appendChild(formulario());
+}
+cargarDom();
 
-DOM.appendChild(header());
-DOM.appendChild(tarea());
-DOM.appendChild(formulario());
+export {cargarDom}

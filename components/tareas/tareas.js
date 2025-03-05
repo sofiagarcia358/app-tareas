@@ -1,5 +1,8 @@
 import { asignaciones } from "./data.js";
 
+function cargarTareas(){
+    
+}
 function item(tareaTexto) {
     let div = document.createElement('div');
     div.className = "task-item";
