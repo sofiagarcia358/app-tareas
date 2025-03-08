@@ -1,12 +1,46 @@
 body {
-    display: flex;
     justify-content: center;
     
     height: 70rem; /* Hace que el contenedor ocupe toda la pantalla */
     margin: 0;
   }
-  .cuadro{
-    max-width: 60rem;
-    height: 100vh;
+  @media (max-width: 375px) {
+    .body{
+        max-width: 100%;
+    }
+    .div-tareas {
+        max-width: 100%;
+        max-width: 375px;
+        margin: 0 auto;
+        padding: 0.5rem;
+    }
 
-  }
+    .task-item {
+        max-width: 375px;
+    }
+    .header{
+        max-width: 375px;
+    }
+    .div-formulario{
+        max-width: 375px;
+        display: grid;
+        grid-template-columns: 1fr 260px 40px 1fr;
+    
+    }
+    .fori{
+        max-width: 250px;
+        grid-column: 2/3;
+    }
+    .task-button{
+        max-width: 35px;
+        grid-column: 3/4;
+    }
+
+}
+
+#root{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto auto;
+
+}

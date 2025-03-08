@@ -1,22 +1,13 @@
-.task-container {
+.div-tareas {
     width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
+    
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
 }
 
-.task-title {
-    text-align: center;
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-.task-list {
-    margin-bottom: 20px;
-}
 
 .task-item {
     display: flex;
@@ -33,50 +24,22 @@
     transform: scale(1.2);
     margin-right: 10px;
     order: -1;
-}
-
-.task-label {
-    font-size: 18px;
-    flex-grow: 1;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background: #fff;
-}
-
-.task-input-container {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 20px;
 }
 
-.task-input {
+.task-item p {
+    font-size: 18px;
     flex-grow: 1;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 18px;
     background: #fff;
+    display: flex;
 }
 
-.task-button {
-    padding: 10px 20px;
-    font-size: 18px;
-    background-color: #28a745;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-left: 10px;
-}
-
-.task-button:hover {
-    background-color: #218838;
-}
-.completed-task {
+.hola {
     background-color: green !important;
     text-decoration: line-through;
-    color: white;
+    color: black;
     transition: background-color 0.3s ease;
 }
